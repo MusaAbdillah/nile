@@ -6,7 +6,9 @@
 	"author": "Musa Abdillah",
 	"license": "MIT",
 	"scripts": {
-		"build": "node ./node_modules/webpack/bin/webpack.js -w"
+		"build": "node ./node_modules/webpack/bin/webpack.js -w",
+		"wds": "./node_modules/.bin/webpack-dev-server --config webpack.config.js"
+
 	},
 	"babel": {
 		"plugins": [
